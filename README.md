@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/Marioangelpt/Myteam/blob/main/Screenshot%202022-09-28%20at%2017-40-44%20my%20team.png)
+![screenshot](https://github.com/Marioangelpt/Myteam/blob/main/Screenshot 2022-09-30 215037.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
