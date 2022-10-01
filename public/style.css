@@ -1,0 +1,327 @@
+*{
+    font-size: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10.4rem;
+    background-color: #181719;
+}
+
+.container__title{
+    position: relative;
+    left: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.2rem;
+    height: 3.2rem;
+    border: .1rem solid #FFFFFF;
+}
+.header__title{
+    font-family: "Crimson Pro";
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+.menu__vertical{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: none;
+}
+.item__link{
+    position: relative;
+    left: 100rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 9.6rem;
+}
+
+.item__link--home{
+    bottom: 2.1rem;
+    font-weight: 700;
+}
+.item__link--home::after{
+    content: "";
+    position: relative;
+    top: 4rem;
+    right: 3rem;
+    display: inline-block;
+    width: .2rem;
+    height: 5.6rem;
+    background-color: #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.item__link--margin{
+    margin: none;
+}
+
+main{
+    position: absolute;
+    top: 10.4rem;
+    width: 100vw;
+    height: 89.1vh;
+    background-color: #181719;
+}
+.main__title{
+    position: absolute;
+    left: 12rem;
+    top: 23.2rem;
+    display: inline;
+    font-family: "Lora";
+    font-weight: 500;
+    font-size: 4.8rem;
+    color: #FFFFFF;
+}
+.item__paragraph{
+    position: relative;
+    left: 12rem;
+    top: 36rem;
+    display: inline-block;
+    width: 38.4rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #FFFFFF;
+}
+.item__readmore{
+    position: absolute;
+    left: 12rem;
+    top: 58.4rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.arrow{
+    position: relative;
+    left: .8rem;
+    top: .8rem;
+}
+.container__img{
+    position: relative;
+    left: 100rem;
+    bottom: 7.2rem;
+    width: 77.6rem;
+    height: 60rem;
+    background-color: blue;
+}
+.item__img{
+    width: 100%;
+    height: 100%;
+}
+.container__card{
+    position: absolute;
+    right: 17.6rem;
+    top: 64rem;
+    width: 43.2rem;
+    height: 17.6rem;
+    background-color: #181719;
+    box-shadow: 0px 6px 6px -1px rgba(0,0,0,0.25);
+}
+
+.img__card{
+    position: relative;
+    left: 3.2rem;
+    top: 1.6rem;
+    width: 12%;
+    height: 29%;
+    border-radius: 6.4rem;
+}
+
+.card__title{
+    position: relative;
+    left: 10.4rem;
+    bottom: 4rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+.card__job{
+    position: relative;
+    left: 10.4rem;
+    bottom: 4rem;
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    color: #828282;
+}
+.card__description{
+    position: relative;
+    left: 3.2rem;
+    bottom: 3.2rem;
+    font-family: "Lora";
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+    color: #FFFFFF;
+}
+footer{
+    position: absolute;
+    top: 92rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+footer p{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #A9A9A9;
+}
+
+@media screen and (max-width: 48rem){
+    header{
+	width: 100vw;
+    }
+    .container__title{
+	position: absolute;
+	left: 2.4rem;
+    }
+    .menu{
+	position: absolute;
+	right: 2.4rem;
+	display: inline;
+	width: 2.8rem;
+	height: 1.9rem;
+	color: #FFFFFF;
+    }
+    .menu__vertical{
+	display: none;
+	transition: all .3s ease;
+    }
+    .menu__vertical.active{
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	display: block;
+	width: 100vw;
+	height: 80rem;
+	background-color: #181719;
+	z-index: 2;
+    }
+    .close{
+	position: absolute;
+	right: 3.2rem;
+	top: 4rem;
+	display: inline;
+	font-size: 2.4rem;
+	color: #FFFFFF;
+    }
+    .item__link{
+	position: absolute;
+	left: 0rem;
+	top: 0rem;
+	height: 1.6rem;
+	font-size: 1.8rem;
+	margin: 0rem;
+    }
+    .item__link--home{
+	position: relative;
+	top: 17.6rem;
+	left: 16rem;
+    }
+    .item__link__about{
+	position: relative;
+	top: 28.8rem;
+	left: .8rem;
+    }
+    .item__link__collection{
+	position: relative;
+	top: 23.2rem;
+	left: 8.4rem;
+    }
+    .item__link--margin{
+	position: relative;
+	top: 34.4rem;
+	left: -5.8rem;
+    }
+    main{
+	top: 10.3rem;
+	width: 100vw;
+	height: 77.6rem;
+    }
+    .main__title{
+	left: 2.4rem;
+	top: 0rem;
+	font-weight: 500;
+	font-size: 3.6rem;
+    }
+    .item__paragraph{
+	left: 2.4rem;
+	top: 8rem;
+	width: 25.6rem;
+	font-size: 1.4rem;
+    }
+    .item__readmore{
+	left: 2.4rem;
+	top: 26.4rem;
+	font-size: 1.4rem;
+    }
+    .container__img{
+	left: 2.4rem;
+	top: 17.6rem;
+	width: 32.8rem;
+	height: 21.6rem;
+    }
+    .item__img{
+	margin: 0rem;
+    }
+    .container__card{
+	position: absolute;
+	left: 6.4rem;
+	top: 52.4rem;
+	display: inline-block;
+	width: 28rem;
+	height: 15.2rem;	
+    }
+    .img__card{
+	left: 2.4rem;
+	width: 13%;
+	height: 25%;
+    }
+    .card__title{
+	left: 4rem;
+	bottom: .8rem;
+	display: inline-block;
+	font-size: 1.2rem;
+	margin: 0rem;
+    }
+    .card__job{
+	left: -4.4rem;
+	top: .8rem;
+	display: inline-block;
+	width: 10.4rem;
+	font-size: 1rem;
+	margin: 0rem;
+    }
+    .card__description{
+	left: 2.4rem;
+	top: 2.4rem;
+	display: inline-block;
+	width: 20rem;
+	font-size: 1.8rem;
+	margin: 0rem;
+    }
+    footer{
+	top: 83.2rem;
+	width: 100vw;
+    }
+    footer p{
+	font-size: 1.4rem;
+    }
+
+}
+
+
