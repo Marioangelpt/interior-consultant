@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/Marioangelpt/Myteam/blob/main/Screenshot 2022-09-30 215037.png)
+![screenshot](https://github.com/Marioangelpt/interior-consultant/Screenshot 2022-09-30 215037.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
