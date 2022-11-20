@@ -50,7 +50,7 @@ responsive design
 ### Built With
 
 
-do not use any framework for this project, html and css only
+i don't use any framework for this project, only html and css
 
 ## Features
 
@@ -61,7 +61,8 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 ## Acknowledgements
 
-only use html and css
+- HTML
+- CSS
 
 ## Contact
 
